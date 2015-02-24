@@ -2,7 +2,7 @@
 
 import time
 import math
-from omega import I2C
+from onion import I2C
 
 def get_device(addr=0x5A):
     return PWM(addr)
